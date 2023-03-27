@@ -1,0 +1,8 @@
+select avg (salary) from instructor
+
+select count (id) from instructor
+where dept_name='Physics'
+
+
+select name, dept_name from student
+where tot_cred>50 and dept_name<>'Comp. Sci.'
