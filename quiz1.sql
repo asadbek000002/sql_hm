@@ -6,5 +6,5 @@
 
 --2
 
---select distinct recipe_classes.recipeclassdescription, recipes.recipetitle from recipes inner join recipe_classes
+--select  count(recipe_classes.recipeclassdescription) from recipes inner join recipe_classes
 --using (recipeclassid)
