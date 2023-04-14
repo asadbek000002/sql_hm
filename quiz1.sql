@@ -6,8 +6,11 @@
 
 --2
 
+
 --select  count(recipe_classes.recipeclassdescription) from recipes inner join recipe_classes
 --using (recipeclassid)
+--where recipeclassdescription = 'Main course'
+
 
 --3
 
